@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LappyMan</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='css/homescreen.css') }}"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!----hero Section start---->
+
+    <div class="hero">
+      <nav>
+        <img
+          src="https://github.com/Syachrifaldi/FinalProject/blob/main/static/img/Logo.png?raw=true"
+          class="logo"
+        />
+        <ul>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="text-box">
+        <h1>LappyMan</h1>
+        <h3>Let's find you best laptop</h3>
+        <div class="newslatter">
+          <a href="/build" class="neon-button">Let's Start</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
